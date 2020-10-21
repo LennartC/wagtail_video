@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='wagtail_video',
-    version='1.0.1',
+    version='1.0.2',
     packages=find_packages(),
     include_package_data=True,
     license='BSD License',
@@ -32,7 +32,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Site Management',
     ],
     install_requires=[
-        'wagtail>=2.7',
-        'Django>=2.1'
+        'wagtail>=2.10',
+        'Django>=2.2'
     ]
 )

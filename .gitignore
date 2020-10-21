@@ -39,3 +39,4 @@ local_dev.py
 local_production.py
 build/
 dist/
+/.idea/
